@@ -1,0 +1,10 @@
+
+tabulate {
+*Iterate on voter count.
+*if eliminated use    	  preferences[i][1]=v to         update candidates.vote.
+  $candidates[v].votes++
+*else use preferences[i]      [0]=v to update        candidates.vote.
+}
+print_winner {
+     
+}

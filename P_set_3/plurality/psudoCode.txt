@@ -1,0 +1,8 @@
+itrrate over candidates_count
+create a variable to store id of candidate having max votes and set it to 0
+read each votes using candidates[i].votes
+if (candidates[winnerId].votes < candidates[i].votes) set winnerId to i
+print
+
+
+
